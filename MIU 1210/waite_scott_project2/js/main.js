@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		makeSelect.setAttribute("id", "groups");
 	for(var i=0, j=hairColor.length; i<j; i++){
 		var makeOption = document.createElement('option');
-	//	var optText = hairColor[i];
+		var optText = hairColor[i];
 		makeOption.setAttribute("value", optText);
 		makeOption.innerHTML = optText;
 		makeSelect.appendChild(makeOption);
@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		switch(n){
 			case "on":
 			$('registrationForm').style.display = "none";
-			$('clearLocal').style.display = "inline";
+			$('clear').style.display = "inline";
 			$('displayLink').style.display = "none";
 			break;
 		case "off":
@@ -85,19 +85,21 @@ window.addEventListener("DOMContentLoaded", function(){
 	}
 
 	function getData(){
-		toggleControls("on");
 		if(localStorage.length === 0){
 			alert("There is no data in Local Storage so default data was added.");
 			autoFillData();
-		}
+		} else {
+			toggleControls("on");
 		//Write Data from Local Storage to the browser.
 		var makeDiv = document.createElement('div');
 		makeDiv.setAttribute("id", "items");
 		var makeList = document.createElement('ul');
 		makeDiv.appendChild(makeList);
+		document.body.appendChild(makeDiv);
 		$('items').style.display = "block";
 		for(var i=0, len=localStorage.length; i<len;i++){
 			var makeli = document.createElement('li');
+			var linksLi = document.createElement("li");
 			makeList.appendChild(makeli);
 			var key = localStorage.key(i);
 			var value = localStorage.getItem(key);
@@ -105,21 +107,18 @@ window.addEventListener("DOMContentLoaded", function(){
 			var obj = JSON.parse(value);
 			var makeSubList = document.createElement('ul');
 			makeli.appendChild(makeSubList);
-			getImage(obj.group[1], makeSubList);
+			//getImage(obj.group[1], makeSubList);
 			for(var n in obj){
-				var makeSubli = document.createElement('li');
+				var makeSubli = document.createElement("li");
 				makeSubList.appendChild(makeSubli);
-				var optSubText = obj [n][0]+" "+obj[n][1];
+				var optSubText = obj[n][0]+" "+obj[n][1];
 				makeSubli.innerHTML = optSubText;
-
-			}
-		}
-
-	}
-
-
-
-
+				makeSubList.appendChild(linksLi);
+}
+makeItemLinks(localStorage.key(i), linksLi); //Create edit and delete links for each item in local storage.
+}
+}
+}
 
 	//Auto Populate Local Storage
 	function autoFillData(){
@@ -295,7 +294,7 @@ window.addEventListener("DOMContentLoaded", function(){
     displayLink.addEventListener("click", getData);
 	
 	
-	var clearMyData = $('clearLocal');
+	var clearMyData = $('clear');
     clearMyData.addEventListener("click", clearLocal);
 	
 	var save = $('submit');

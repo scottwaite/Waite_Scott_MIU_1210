@@ -10,7 +10,7 @@ var json = {
 		"lastname": ["Last Name:", "Smith"],
 		"parentemail": ["Parent Email:", "ssmith123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "10"]
-	};
+	},
 
 	"student2": {
 		"groups": ["Hair Color:", "Brown"],
@@ -19,7 +19,7 @@ var json = {
 		"lastname": ["Last Name:", "Green"],
 		"parentemail": ["Parent Email:", "jgreen123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "6"]
-	};
+	},
 
 	"student3": {
 		"groups": ["Hair Color:", "Blond"],
@@ -28,7 +28,7 @@ var json = {
 		"lastname": ["Last Name:", "Roberts"],
 		"parentemail": ["Parent Email:", "droberts@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "5"]
-	};
+	},
 
 	"student4": {
 		"groups": ["Hair Color:", "Blond"],
@@ -37,7 +37,7 @@ var json = {
 		"lastname": ["Last Name:", "Muniz"],
 		"parentemail": ["Parent Email:", "mm123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "50"]
-	};
+	},
 
 	"student5": {
 		"groups": ["Hair Color:", "Brown"],
@@ -46,7 +46,7 @@ var json = {
 		"lastname": ["Last Name:", "Redding"],
 		"parentemail": ["Parent Email:", "jredding23@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "19"]
-	};
+	},
 
 	"student6": {
 		"groups": ["Hair Color:", "Blond"],
@@ -55,7 +55,7 @@ var json = {
 		"lastname": ["Last Name:", "Rodriguez"],
 		"parentemail": ["Parent Email:", "miker123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "30"]
-	};
+	},
 
 	"student7": {
 		"groups": ["Hair Color:", "Red"],
@@ -64,7 +64,7 @@ var json = {
 		"lastname": ["Last Name:", "Smith"],
 		"parentemail": ["Parent Email:", "jsmith123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "18"]
-	};
+	},
 
 	"student8": {
 		"groups": ["Hair Color:", "Blond"],
@@ -73,7 +73,7 @@ var json = {
 		"lastname": ["Last Name:", "Kelmp"],
 		"parentemail": ["Parent Email:", "lkelmp@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "22"]
-	};
+	},
 
 	"student9": {
 		"groups": ["Hair Color:", "Blond"],
@@ -82,7 +82,7 @@ var json = {
 		"lastname": ["Last Name:", "Hoopes"],
 		"parentemail": ["Parent Email:", "nhoopes@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "53"]
-	};
+	},
 
 	"student10": {
 		"groups": ["Hair Color:", "Red"],
@@ -91,7 +91,7 @@ var json = {
 		"lastname": ["Last Name:", "Rud"],
 		"parentemail": ["Parent Email:", "steverud@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "76"]
-	};
+	},
 
 	"student11": {
 		"groups": ["Hair Color:", "Black"],
@@ -100,7 +100,7 @@ var json = {
 		"lastname": ["Last Name:", "Leo"],
 		"parentemail": ["Parent Email:", "sdsfh123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "56"]
-	};
+	},
 
 	"student12": {
 		"groups": ["Hair Color:", "Blond"],
@@ -109,7 +109,7 @@ var json = {
 		"lastname": ["Last Name:", "Tidwell"],
 		"parentemail": ["Parent Email:", "fdgfdh123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "23"]
-	};
+	},
 
 	"student13": {
 		"groups": ["Hair Color:", "Red"],
@@ -118,7 +118,7 @@ var json = {
 		"lastname": ["Last Name:", "Lawson"],
 		"parentemail": ["Parent Email:", "tlawson@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "24"]
-	};
+	},
 
 	"student14": {
 		"groups": ["Hair Color:", "Black"],
@@ -127,7 +127,7 @@ var json = {
 		"lastname": ["Last Name:", "Winters"],
 		"parentemail": ["Parent Email:", "gwinters@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "65"]
-	};
+	},
 
 	"student15": {
 		"groups": ["Hair Color:", "Brown"],
@@ -136,7 +136,7 @@ var json = {
 		"lastname": ["Last Name:", "Salazar"],
 		"parentemail": ["Parent Email:", "lsalazar@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "23"]
-	};
+	},
 
 	"student16": {
 		"groups": ["Hair Color:", "Brown"],
@@ -145,7 +145,7 @@ var json = {
 		"lastname": ["Last Name:", "Berry"],
 		"parentemail": ["Parent Email:", "halleb@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "10"]
-	};
+	},
 
 	"student17": {
 		"groups": ["Hair Color:", "Brown"],
@@ -154,7 +154,7 @@ var json = {
 		"lastname": ["Last Name:", "Simpson"],
 		"parentemail": ["Parent Email:", "jsimpson123@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "1"]
-	};
+	},
 
 	"student18": {
 		"groups": ["Hair Color:", "Blond"],
@@ -163,7 +163,7 @@ var json = {
 		"lastname": ["Last Name:", "Pitt"],
 		"parentemail": ["Parent Email:", "bpitts@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "40"]
-	};
+	},
 
 	"student19": {
 		"groups": ["Hair Color:", "Blond"],
@@ -172,7 +172,7 @@ var json = {
 		"lastname": ["Last Name:", "Lopez"],
 		"parentemail": ["Parent Email:", "lopez229@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "33"]
-	};
+	},
 
 	"student20": {
 		"groups": ["Hair Color:", "Red"],
@@ -181,7 +181,7 @@ var json = {
 		"lastname": ["Last Name:", "Grier"],
 		"parentemail": ["Parent Email:", "jgrier02394@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "12"]
-	};
+	},
 
 	"student21": {
 		"groups": ["Hair Color:", "Bald"],
@@ -190,7 +190,7 @@ var json = {
 		"lastname": ["Last Name:", "Lowry"],
 		"parentemail": ["Parent Email:", "jlowry23@test.com"],
 		"addAssistance": ["Additional Assistance Required:", "16"]
-	};
+	}
 
 
 
