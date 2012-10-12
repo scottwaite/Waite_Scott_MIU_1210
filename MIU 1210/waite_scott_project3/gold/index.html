@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!-- Scott Waite 
+    Mobile Interfaces & Usability 1210 
+    Project 3 -->
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css"
+        />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    
+    <body>
+        <!-- Page 1 -->
+        <div data-role="page" id="page1">
+            <div data-theme="d" data-role="header" data-position="fixed">
+                <h3>
+                    Register Now
+                </h3>
+                <a id="homeButton" data-role="button" data-theme="d" href="#page1" data-icon="home"
+                data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="searchinput1">
+                        </label>
+                        <input name="" id="searchfield" placeholder="Search" value="" type="text">
+                    </fieldset>
+                </div>
+            </div>
+            <div data-role="content">
+                <a href="#page1">
+                    <div style=" text-align:center">
+                        <img id="pencilCTA" style="width: 147px; height: 136px" src="https://lh5.googleusercontent.com/-1wosUb90gC8/UG-Lt5SK0dI/AAAAAAAAAhU/XPf_rYEdWIo/s512/Screen%252520Shot%2525202012-10-05%252520at%2525209.38.07%252520PM.png">
+                    </div>
+                </a>
+                <a data-role="button" data-theme="e" href="#page2" data-icon="check" data-iconpos="top">
+                    Register Now
+                </a>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Browse By:
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Student ID
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Last Name
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            First Name
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Parent Email
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Assistance Required
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Allergies
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Gender
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Hair Color
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Transportation Method
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style=" text-align:center">
+                    <img style="width: 50px; height: 50px" src="http://cdn4.iconfinder.com/data/icons/Mobile-Icons/128/09.call.png">
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div>
+                    <p>
+                        <strong>
+                            (813) 352-2222
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style=" text-align:center">
+                    <img style="width: 50px; height: 50px" src="http://cdn4.iconfinder.com/data/icons/Mobile-Icons/128/01_messages.png">
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div>
+                    <p>
+                        <strong>
+                            contact@cesd.edu
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div data-role="footer" data-position="fixed" data-id="home">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page1" data-icon="home" class="ui-btn-active ui-state-persist" data-iconpos="top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#page2" data-icon="plus" data-iconpos="top" data-ajax="false">Register</a>
+                    </li>
+                    <li>
+                        <a href="..//Bronze/index.html" data-icon="forward" data-iconpos="top">Bronze App</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/scottwaite/Waite_Scott_MIU_1210.git" data-icon="gear" data-iconpos="top">GH-Pages</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Page 2 -->
+        <div data-role="page" id="page2">
+            <div data-theme="d" data-role="header" data-position="fixed">
+                <h3>
+                    Enter Info
+                </h3>
+                <a id="homeButton" data-role="button" data-theme="d" href="#page1" data-icon="home"
+                data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="StudentID">
+                            Student ID:
+                        </label>
+                        <input name="Student ID" id="StudentID" placeholder="Student ID:" value=""
+                        type="number">
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="lastName">
+                            Last Name:
+                        </label>
+                        <input name="" id="lastName" placeholder="Last Name" value="" type="text">
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="firstName">
+                            First Name:
+                        </label>
+                        <input name="" id="firstName" placeholder="First Name" value="" type="text">
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="firstName">
+                            Parent Email:
+                        </label>
+                        <input name="" id="firstName" placeholder="ParentEmail@example.com" value=""
+                        type="email">
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="assistanceRequired">
+                            Minutes of Academic Assistance Required:
+                        </label>
+                        <input id="assistanceRequired" type="range" name="slider" value="50" min="0"
+                        max="100" data-highlight="false">
+                    </fieldset>
+                </div>
+                <div id="allergies" data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <legend>
+                            Allergies:
+                        </legend>
+                        <input id="radio1" name="Peanut Butter" value="radio1" type="radio">
+                        <label for="radio1">
+                            Peanut Butter
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="gender">
+                        Gender:
+                    </label>
+                    <select id="gender" name="Gender" data-theme="b" data-mini="true">
+                        <option value="male">
+                            Male
+                        </option>
+                        <option value="female">
+                            Female
+                        </option>
+                    </select>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="hairColor">
+                        Hair Color:
+                    </label>
+                    <select id="hairColor" name="Hair Color" data-theme="b" data-mini="true">
+                        <option value="blonde">
+                            Blonde
+                        </option>
+                        <option value="brown">
+                            Brown
+                        </option>
+                        <option value="black">
+                            Black
+                        </option>
+                        <option value="red">
+                            Red
+                        </option>
+                        <option value="gray">
+                            Gray
+                        </option>
+                        <option value="value">
+                            Option
+                        </option>
+                        <option value="bald">
+                            Bald
+                        </option>
+                    </select>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="transportationMethod">
+                        Transportation Method:
+                    </label>
+                    <select id="transportationMethod" name="Transportation Method" data-theme="b"
+                    data-mini="true">
+                        <option value="School Bus">
+                            School Bus
+                        </option>
+                        <option value="walk">
+                            Walk
+                        </option>
+                        <option value="Parent Drop-off">
+                            Parent Drop-off
+                        </option>
+                        <option value="Handicap Van">
+                            Handicap Van
+                        </option>
+                        <option value="bike">
+                            Bike
+                        </option>
+                    </select>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="notes">
+                            Notes:
+                        </label>
+                        <textarea name="Notes" id="notes" placeholder="Notes"></textarea>
+                    </fieldset>
+                </div>
+                <input id="submitRegistration" type="submit" data-theme="e" data-icon="check"
+                data-iconpos="left" value="Submit Registration">
+                <div>
+                    <a href="#page1" data-transition="fade">
+                        Cancel
+                    </a>
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed" data-id="home">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page1" data-icon="home" class="ui-btn-active ui-state-persist" data-iconpos="top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#page2" data-icon="plus" data-iconpos="top" data-ajax="false">Register</a>
+                    </li>
+                    <li>
+                        <a href="..//Bronze/index.html" data-icon="forward" data-iconpos="top">Bronze App</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/scottwaite/Waite_Scott_MIU_1210.git" data-icon="gear" data-iconpos="top">GH-Pages</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <script>
+              //App custom javascript
+        </script>
+    </body>
+
+</html>
